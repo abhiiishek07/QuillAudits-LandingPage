@@ -1,6 +1,6 @@
 import React from "react";
-import CD_Pension_Black from "../../../public/assets/Cd-Pension-black.png";
-import CD_Pension_White from "../../../public/assets/Cd-Pension-white.png";
+import CD_Pension_Black from "../../../public/assets/CD-Pension-black.png";
+import CD_Pension_White from "../../../public/assets/CD-Pension-white.png";
 import Image from "next/image";
 
 const HeroSection = () => {
