@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }) {
     <ThemeProvider defaultTheme="light">
       <Layout>
         {" "}
-        <Component {...pageProps} />;
+        <Component {...pageProps} />
       </Layout>
     </ThemeProvider>
   );
