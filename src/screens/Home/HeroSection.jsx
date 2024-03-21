@@ -1,6 +1,6 @@
 import React from "react";
-import CD_Pension_black from "../../../public/assets/Cd-Pension-black.png";
-import CD_Pension_white from "../../../public/assets/Cd-Pension-white.png";
+import CD_Pension_Black from "../../../public/assets/Cd-Pension-black.png";
+import CD_Pension_White from "../../../public/assets/Cd-Pension-white.png";
 import Image from "next/image";
 
 const HeroSection = () => {
@@ -14,7 +14,7 @@ const HeroSection = () => {
           <div className="rounded-md  h-96 lg:h-[32.5rem] w-full  flex flex-col justify-center lg:justify-end pb-16 items-center bg-gradient-to-r from-black to-green-900">
             {" "}
             <div className="h-32 ">
-              <Image src={CD_Pension_white} />
+              <Image src={CD_Pension_White} alt="pension" />
             </div>
             <div className="mt-8 text-white text-lg hidden lg:flex justify-start w-full items-start">
               {" "}
@@ -33,7 +33,7 @@ const HeroSection = () => {
         </div>
 
         <div className="absolute border p-4 bg-white rounded-md top-[33rem]  lg:top-48 ">
-          <Image src={CD_Pension_black} />
+          <Image src={CD_Pension_Black} alt="pension" />
         </div>
         <div className="flex flex-col text-white  max-w-xl p-5 mt-24">
           <h1 className="text-4xl font-bold leading-snug">
