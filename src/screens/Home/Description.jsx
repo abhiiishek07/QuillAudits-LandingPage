@@ -164,7 +164,7 @@ const Description = () => {
             <ul className="pl-10 font-medium text-lg space-y-3 pr-4">
               {REMEDIATION_LIST.map((item, index) => (
                 <li className="list-disc" key={index}>
-                  {item}
+                  {item.item}
                 </li>
               ))}
             </ul>
@@ -180,8 +180,8 @@ const Description = () => {
               security, bolstering user trust.
             </p>
             <div>
-              <div className="h-fit relative my-10 w-full rounded-lg  shadow-lg">
-                <div className="before:from-blue-950 before:via-blue-900 before:to-blue-800 before:top-0 before:left-0 sm:px-20 px-4 py-7 relative h-full before:absolute w-full before:h-[72%] sm:before:h-[75%] before:-z-10 before:w-full before:bg-gradient-to-br ">
+              <div className="h-auto relative my-10 w-full rounded-lg  shadow-lg">
+                <div className="bg-gradient-to-br from-blue-950 :via-blue-900 to-blue-800 before:top-0 before:left-0 sm:px-20 px-4 py-7 relative h-full before:absolute w-full before:h-[72%] sm:before:h-[75%] before:-z-10 before:w-full before:bg-gradient-to-br ">
                   <Image src={Quotes_white} />
                   <div className="flex sm:flex-row flex-row-reverse h-full sm:justify-between justify-end gap-x-5 pt-8 items-end w-full">
                     <div className="leading-relaxed h-full flex flex-col justify-between">
